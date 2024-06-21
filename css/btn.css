@@ -1,0 +1,29 @@
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  background-color: var(--accept-color);
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: var(--border-radius);
+  transition: background-color 0.3s ease-in-out;
+  &:hover {
+    background-color: var(--accept-color-hover);
+  }
+}
+#calculateBtn {
+  width: 100%;
+}
+
+/* Delete btn */
+
+.btn-delete {
+  background-color: transparent;
+  border: 1px solid var(--danger-color);
+  padding: 0.4rem;
+  &:hover {
+    background-color: var(--danger-color);
+  }
+}
